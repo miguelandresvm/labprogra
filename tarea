@@ -1,0 +1,61 @@
+
+
+// mm2.cpp : Defines the entry point for the console application.
+
+//
+
+ 
+
+// mm.cpp : Defines the entry point for the console application.
+
+//
+
+ 
+
+#include "stdafx.h"
+
+#include <iostream>
+
+#include "conio.h"
+
+ 
+
+using namespace std;
+
+ 
+
+int main()
+
+{
+
+      float a, b, c, mestotal;
+
+ 
+
+      cout<<"ingreso mes1";
+
+      cin>>a;
+
+      cout<<"ingreso mes2";
+
+      cin>>b;
+
+      cout<<"ingreso mes3";
+
+    cin>>c;
+
+      mestotal=(a+b+c)*4;
+
+      cout<<"ingreso total por mes"<<mestotal;
+
+      getch();
+
+ 
+
+      return 0;
+
+}
+
+ 
+
+ 
