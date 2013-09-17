@@ -1,0 +1,28 @@
+// mavm : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+
+
+int main()
+{float sueldo,sueldobase,impuesto,AFP;
+cout<<"ingrese el sueldo\n:";
+cin>>sueldo;
+cout<<"ingrese el sueldobase\n:";
+cin>>sueldobase;
+if(sueldo>sueldobase*2)
+{impuesto=sueldo*0.13;
+AFP=sueldo*0.12;}
+else {impuesto=0;
+AFP=0;}
+cout<<"el impuesto a pagar es:";
+cout<<impuesto;
+cout<<"el AFP a paga es:";
+cout<<AFP;
+getch();
+return 0;
+}
+
